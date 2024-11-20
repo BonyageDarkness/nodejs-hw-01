@@ -10,7 +10,7 @@ export const removeLastContact = async () => {
       return;
     }
 
-    contacts.pop(); // Удаляем последний элемент из массива
+    contacts.pop(); 
 
     await writeContacts(contacts);
 
